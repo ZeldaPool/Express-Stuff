@@ -1,0 +1,15 @@
+<h1>
+	LIST GOES HERE
+</h1>
+
+<% heros.forEach(function(hero){ %>
+	<li><%= hero %></li>
+<% }); %>
+
+<form action="/addhero" method="POST">
+	<input type="text" name="newhero" placeholder="ADDNAME">
+	<button>
+		CLICK
+	</button>
+	
+</form>
